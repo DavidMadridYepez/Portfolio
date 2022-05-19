@@ -8,7 +8,7 @@ import Portfolio from './pages/portfolio'
 
 function App() {
   return (
-    <div className='bg-gray-900'>
+    <div className='bg-gray-900 px-7'>
       <BrowserRouter>
         <Navbar />
         <Routes>
