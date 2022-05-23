@@ -9,8 +9,8 @@ function About() {
         <section className='w-1/2'>
           <h1 className='mb-10 text-white text-3xl font-bold'><a className='text-emerald-300' href="#">#</a> Me</h1>
           <article className='space-y-8 text-gray-400 text-xl leading-8'>
-            <p>I went to the North University where Im currently studying Business Management with an emphasis in Networking (yes, I'm a big fan of the internet 🤷‍♂️). I didn't graduate and probably never will since I already learned the topics that would make a difference in my career (OOP, FP, data structures, and compilers). Also, today companies don't require you to have a degree, so it isn't worth investing time.</p>
-            <p>After deciding to focus on learning everything related to front-end development (I used this roadmap to track the topics I needed to learn), I spent almost 3 months learning everything from HTML up to ReactJS. Finally, I got my first job in May 2020 at Fluid Attacks.</p>
+            <p>I went to the <a className='text-emerald-300' href="https://www.uninorte.edu.co/">North University</a>  where I’m currently studying <span className='text-white font-semibold'>Business Management</span> . But growing up surrounded by engineers (my dad, my brother, almost all my cousins) made me got interested in programming languages and networking (yes, I'm a big fan of the internet 🤷‍♂️). As a result, I developed first a hobby, and then it became my passion… The Web Development.</p>
+            <p>After deciding to focus on learning everything related to front-end development (I used this <a className='text-emerald-300' href="https://roadmap.sh/frontend">roadmap</a> to track the topics I needed to learn), I spent almost 5 months learning everything from HTML up to ReactJS. Finally, I was able to make my own projects and excellent web pages. Here is my <a className='text-emerald-300' href="/porfolio">Portfolio</a> . Check it out!</p>
             <p>Like everyone, I had difficulties in my learning process:</p>
             <ul className='space-y-3'>
               <li className='flex items-center space-x-5'>
@@ -23,19 +23,19 @@ function About() {
                 <img className='h-2' src="./images/circle.png" alt="" /> <p>Sometimes it was just that the topic was too difficult to wrap my head around it.</p>
               </li>
             </ul>
-            <p>My advice if you're having the same difficulties is to take this course. It'll give you powerful tools to improve your learning ability, and the best thing, is freemium! 🥳.</p>
+            <p>My advice if you're having the same difficulties is to take <a className='text-emerald-300' href="https://www.coursera.org/learn/learning-how-to-learn">this course</a> . It'll give you powerful tools to improve your learning ability, and the best thing, is freemium! 🥳.</p>
           </article>
         </section>
         <section className='w-1/2'>
           <h1 className='mb-10 text-white text-3xl font-bold'><a className='text-emerald-300' href="#">#</a> Now</h1>
           <article className='space-y-8 text-gray-400 text-xl leading-8'>
-            <p>I now work as a Frontend Tech Lead for the Ottomoto account at Lean Tech. I've been developing websites from e-commerce sites to web applications for more than 1 year.</p>
-            <p>I continue spending a lot of time learning new technologies, patterns, libraries, etc. And I'm trying different ways to find a balance within that, my current hobbies (CrossFit, videogames, and movies) and the ones I'm trying to build (traveling, cooking and writing).</p>
-            <p>I'm going to start creating content about frontend development, so I invite you to maintain contact through my social networks:</p>
-            <div className='flex'>
-              <i>Logo</i>
-              <i>Logo</i>
-              <i>Logo</i>
+            <p>I now keep learning as much as I can to get a job. Ive been development personal projects and freelancing for almost 1 year now.</p>
+            <p>I continue spending a lot of time learning new technologies, patterns, libraries, etc.And I'm trying different ways to find a balance within that, my current hobbies (Excersise, Chess, and reading) and the ones I'm trying to build (traveling, cooking and writing).</p>
+            <p>You can also find me on my social networks:</p>
+            <div className='flex space-x-7'>
+              <a href="https://www.instagram.com/dmadridy/"><img src="./images/instagram(4).png" alt="" /></a>
+              <a href="https://github.com/DavidMadridYepez"><img src="./images/github(3).png" alt="" /></a>
+              <a href="https://www.linkedin.com/in/david-madrid-0809211a1/"><img src="./images/linkedin(1).png" alt="" /></a>
             </div>
           </article>
         </section>
