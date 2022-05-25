@@ -2,7 +2,7 @@ import React from 'react'
 
 function Portfolio() {
   return (
-    <div className='pb-10' >
+    <div className='pb-10 xl:h-full flex flex-col justify-center' >
       <h1 className='text-center text-5xl font-bold text-white m-5'>My Recent Projects</h1>
       <div className='w-full flex flex-col md:flex-row justify-center'>
         <a className='text-white text-2xl font-bold flex flex-col p-3 items-center border border-cyan-900 m-10 hover:scale-110 duration-100' target='blank' href="https://news-web-app-seven.vercel.app/">

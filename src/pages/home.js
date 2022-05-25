@@ -2,7 +2,7 @@ import React from 'react'
 
 function Home() {
   return (
-    <div className='pt-10' >
+    <div className='pt-10 xl:h-full' >
       <article className='md:w-2/3 xl:w-1/2' >
         <img className='w-16 rounded-full h-16 mb-3' src="./images/profile.jpeg" alt="" />
         <p className='text-emerald-300 text-lg md:text-xl mb-3'>Hi, my name is</p>
