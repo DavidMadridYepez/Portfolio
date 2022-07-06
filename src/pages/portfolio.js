@@ -13,9 +13,9 @@ function Portfolio() {
           <img className='h-60 mb-3' src="./images/mountains.png" alt="" />
           <h1>Travel Guide</h1>
         </a>
-        <a className='flex flex-col p-3 items-center border border-cyan-900 m-10 hover:scale-110 duration-100 text-white text-2xl font-bold' target='blank' href="https://jobs-web-app.vercel.app/">
+        <a className='flex flex-col p-3 items-center border border-cyan-900 m-10 hover:scale-110 duration-100 text-white text-2xl font-bold' target='blank' href="https://news-app-sage-alpha.vercel.app/">
           <img className='h-60 mb-3' src="./images/headhunting.png" alt="" />
-          <h1>Job Description</h1>
+          <h1>News App</h1>
         </a>
         <div></div>
         <div></div>
