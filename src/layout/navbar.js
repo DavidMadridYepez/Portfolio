@@ -14,7 +14,7 @@ const Navbar = () => {
         <NavLink className={({ isActive }) => isActive ? active : unactive} to='/'>HOME</NavLink>
         <NavLink className={({ isActive }) => isActive ? active : unactive} to='/about'>ABOUT</NavLink>
         <NavLink className={({ isActive }) => isActive ? active : unactive} to='/portfolio'>PORTFOLIO</NavLink>
-        <a className='text-neutral-900 duration-200 hover:bg-neutral-900 hover:text-red-600 bg-red-600 border border-red-600 p-1' href="mailto:davidmadridpathway@gmail.com">GET IN TOUCH</a>
+        <a className='font-medium text-neutral-900 duration-200 hover:bg-neutral-900 hover:text-red-600 bg-red-600 border border-red-600 p-1' href="mailto:davidmadridpathway@gmail.com">GET IN TOUCH</a>
       </div>
     </div>
   )
