@@ -9,7 +9,7 @@ const Home = () => {
         I'm a passionate front-end engineer; I enjoy learning and practicing new technologies, architectural styles, and new patterns.
         Life without challenges would be boring, that why I'm always facing new problems and getting into new adventures!
       </p>
-      <a className='text-neutral-900 duration-200 hover:bg-neutral-900 hover:text-red-600 bg-red-600 border-2 border-red-600 font-medium p-2 text-lg' href="#">DOWNLOAD CV</a>
+      <a className='text-neutral-900 duration-200 hover:bg-neutral-900 hover:text-red-600 bg-red-600 border-2 border-red-600 font-medium p-2 text-lg' href="https://drive.google.com/file/d/1xp7K2Kg5Sw2Ol-MwouDCMjK76YQt_D7a/view?usp=sharing" target='_blank' rel='noreferrer'>DOWNLOAD CV</a>
     </div>
   )
 }

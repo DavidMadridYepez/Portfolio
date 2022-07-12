@@ -11,9 +11,9 @@ function Footer() {
         <p>© 2022 David Madrid. All rights reserved.</p>
       </div>
       <div className='space-x-5 flex'>
-        <a href="https://www.linkedin.com/in/david-madrid-0809211a1/"><img className={mouseover} src={linkedin} alt="" /></a>
-        <a href="https://github.com/DavidMadridYepez"><img className={mouseover} src={github} alt="" /></a>
-        <a href="https://www.instagram.com/dmadridy/"><img className={mouseover} src={instagram} alt="" /></a>
+        <a target='_blank' rel='noreferrer' href="https://www.linkedin.com/in/david-madrid-0809211a1/"><img className={mouseover} src={linkedin} alt="" /></a>
+        <a target='_blank' rel='noreferrer' href="https://github.com/DavidMadridYepez"><img className={mouseover} src={github} alt="" /></a>
+        <a target='_blank' rel='noreferrer' href="https://www.instagram.com/dmadridy/"><img className={mouseover} src={instagram} alt="" /></a>
       </div>
     </div>
   )
