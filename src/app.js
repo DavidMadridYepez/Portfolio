@@ -7,7 +7,7 @@ import Footer from './layout/footer'
 
 function App() {
   return (
-    <div className='h-screen flex flex-col justify-between bg-neutral-900'>
+    <div className='h-screen flex flex-col justify-between bg-black'>
       <BrowserRouter>
         <Navbar />
         <Routes>

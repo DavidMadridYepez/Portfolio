@@ -1,14 +1,14 @@
 import React from 'react'
 import { NavLink } from 'react-router-dom'
 import { active, unactive } from '../assets/styles'
+import arrow from '../assets/images/arrow.png'
 
 
 const Navbar = () => {
   return (
-    <div className='bg-neutral-900 text-white flex justify-between p-10 pt-16'>
+    <div className='bg-black text-white items-center flex justify-between p-10 pt-16'>
       <div>
-        <img src="../assets/images/arrow.png" alt="" />
-        <i>Logo</i>
+        <img className='w-14' src={arrow} alt="" />
       </div>
       <div className='space-x-10'>
         <NavLink className={({ isActive }) => isActive ? active : unactive} to='/'>HOME</NavLink>
