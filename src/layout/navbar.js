@@ -10,7 +10,7 @@ const Navbar = () => {
       <div>
         <img className='w-14' src={arrow} alt="" />
       </div>
-      <div className='space-x-10'>
+      <div className='space-x-10 hidden md:flex'>
         <NavLink className={({ isActive }) => isActive ? active : unactive} to='/'>HOME</NavLink>
         <NavLink className={({ isActive }) => isActive ? active : unactive} to='/about'>ABOUT</NavLink>
         <NavLink className={({ isActive }) => isActive ? active : unactive} to='/portfolio'>PORTFOLIO</NavLink>

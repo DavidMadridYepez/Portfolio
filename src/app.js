@@ -2,8 +2,9 @@ import React from 'react'
 import { Working } from './components/working'
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import Navbar from './layout/navbar'
-import Home from './pages/about'
+import Home from './pages/home'
 import Footer from './layout/footer'
+import NoRoute from './components/errors/noRoute'
 
 function App() {
   return (
@@ -12,6 +13,9 @@ function App() {
         <Navbar />
         <Routes>
           <Route path='/' element={<Home />} />
+          <Route path='/about' element={<Working />} />
+          <Route path='/portfolio' element={<Working />} />
+          <Route path='*' element={<NoRoute />} />
         </Routes>
         <Footer />
       </BrowserRouter>
