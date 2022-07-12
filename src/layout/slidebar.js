@@ -1,13 +1,18 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
+import { NavLink } from 'react-router-dom'
+import { activeSlide, unactiveSlide } from '../assets/styles'
 
-function Slidebar() {
+function Slidebar({ onClick }) {
   return (
-    <div>
-      <Link to='/'>Home</Link>
-      <Link to='/about'>About</Link>
-      <Link to='/portfolio'>Portfolio</Link>
-      <a href="mailto:davidmadridpathway@gmail.com">GET IN TOUCH</a>
+    <div className='md:hidden flex flex-col justify-between h-screen bg-neutral-800 text-xl text-white py-10 '>
+      <div className='flex flex-col space-y-2'>
+        <NavLink onClick={onClick} className={({ isActive }) => isActive ? activeSlide : unactiveSlide} to='/'>Home</NavLink>
+        <NavLink onClick={onClick} className={({ isActive }) => isActive ? activeSlide : unactiveSlide} to='/about'>About</NavLink>
+        <NavLink onClick={onClick} className={({ isActive }) => isActive ? activeSlide : unactiveSlide} to='/portfolio'>Portfolio</NavLink>
+      </div>
+      <div className='px-5 py-3 bg-red-600 hover:bg-red-500 text-neutral-800 font-medium duration-100 cursor-pointer'>
+        <a href="mailto:davidmadridpathway@gmail.com">GET IN TOUCH</a>
+      </div>
     </div>
   )
 }
