@@ -4,14 +4,15 @@ import { NavLink } from 'react-router-dom'
 
 const Navbar = () => {
   return (
-    <div>
+    <div className='bg-neutral-800 text-white flex justify-between p-10'>
       <div>
         <i>Logo</i>
       </div>
-      <div>
-        <NavLink to='/'>Home</NavLink>
-        <NavLink to='/about'>About</NavLink>
-        <NavLink to='/portfolio'>Portfolio</NavLink>
+      <div className='space-x-10'>
+        <NavLink to='/'>HOME</NavLink>
+        <NavLink to='/about'>ABOUT</NavLink>
+        <NavLink to='/portfolio'>PORTFOLIO</NavLink>
+        <a href="mailto:davidmadridpathway@gmail.com">GET IN TOUCH</a>
       </div>
     </div>
   )
