@@ -2,7 +2,7 @@ import React from 'react'
 
 function Footer() {
   return (
-    <div className='px-10 py-5 w-full absolute bottom-0 text-white flex justify-between items-center bg-neutral-800'>
+    <div className='px-10 py-5 w-full text-white flex justify-between items-center bg-neutral-900'>
       <div>
         <p>© 2022 David Madrid. All rights reserved.</p>
       </div>

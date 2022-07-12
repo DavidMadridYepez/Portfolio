@@ -7,13 +7,15 @@ import Footer from './layout/footer'
 
 function App() {
   return (
-    <BrowserRouter>
-      <Navbar />
-      <Routes>
-        <Route path='/' element={<Home />} />
-      </Routes>
-      <Footer />
-    </BrowserRouter>
+    <div className='h-screen flex flex-col justify-between bg-neutral-900'>
+      <BrowserRouter>
+        <Navbar />
+        <Routes>
+          <Route path='/' element={<Home />} />
+        </Routes>
+        <Footer />
+      </BrowserRouter>
+    </div>
   )
 }
 
