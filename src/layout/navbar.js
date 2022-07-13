@@ -19,7 +19,7 @@ const Navbar = () => {
           <img className='w-14' src={arrow} alt="" />
         </div>
         <button onClick={handleClick} ><img className={`md:hidden ${menuOpen ? 'duration-300 -rotate-90' : 'duration-300 rotate-0'}`} src={menu} alt="" /></button>
-        <div className='space-x-10 hidden md:flex'>
+        <div className='space-x-10 hidden md:flex items-center'>
           <NavLink className={({ isActive }) => isActive ? active : unactive} to='/'>HOME</NavLink>
           <NavLink className={({ isActive }) => isActive ? active : unactive} to='/about'>ABOUT</NavLink>
           <NavLink className={({ isActive }) => isActive ? active : unactive} to='/portfolio'>PORTFOLIO</NavLink>
