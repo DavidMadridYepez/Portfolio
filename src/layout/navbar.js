@@ -11,7 +11,7 @@ const Navbar = () => {
 
   return (
     <>
-      <div className={`-translate-x-full absolute ${menuOpen ? 'duration-300 translate-x-0' : 'duration-300'}`}>
+      <div className={`-translate-x-full fixed ${menuOpen ? 'duration-300 translate-x-0' : 'duration-300'}`}>
         <Slidebar onClick={handleClick} />
       </div>
       <div className='bg-black text-white items-center flex justify-between p-10 pt-16'>
