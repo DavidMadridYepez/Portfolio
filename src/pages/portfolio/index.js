@@ -13,7 +13,7 @@ const Portfolio = () => {
             <h3 className='text-xl'>ABOUT IT</h3>
             <p>A Top News article build on ReactJs fetching information form NYT API (New York Times).
               Context in combination of useState was used to inject the 'theme' through all the code. Likewise,
-              advanced concepts like useQuery were implemented alongside useParams to get the url parameters and cash the promises dynamically. </p>
+              advanced concepts like React Query were implemented alongside useParams to get the url parameters and cash the promises dynamically. </p>
           </div>
           <a className='text-right' rel='noreferrer' target='_blank' href="https://news-app-sage-alpha.vercel.app/"><button className='hover:text-red-500 hover:bg-neutral-900 border-2 border-red-600 duration-200 p-2 px-4 bg-red-600 font-medium'>GET ME THERE!</button></a>
         </div>
