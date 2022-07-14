@@ -4,7 +4,7 @@ import { activeSlide, unactiveSlide } from '../assets/styles'
 
 function Slidebar({ onClick }) {
   return (
-    <div className='md:hidden flex flex-col justify-between h-screen bg-neutral-800 text-xl text-white py-10 '>
+    <div className=' md:hidden flex flex-col justify-between h-screen bg-neutral-800 text-xl text-white py-10 '>
       <div className='flex flex-col space-y-2'>
         <NavLink onClick={onClick} className={({ isActive }) => isActive ? activeSlide : unactiveSlide} to='/'>Home</NavLink>
         <NavLink onClick={onClick} className={({ isActive }) => isActive ? activeSlide : unactiveSlide} to='/about'>About</NavLink>
