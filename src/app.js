@@ -1,11 +1,11 @@
 import React from 'react'
-import { Working } from './components/working'
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import Navbar from './layout/navbar'
 import Home from './pages/home'
 import Portfolio from './pages/portfolio'
 import Footer from './layout/footer'
 import NoRoute from './components/errors/noRoute'
+import About from './pages/about'
 
 function App() {
   return (
@@ -14,7 +14,7 @@ function App() {
         <Navbar />
         <Routes>
           <Route path='/' element={<Home />} />
-          <Route path='/about' element={<Working />} />
+          <Route path='/about' element={<About />} />
           <Route path='/portfolio' element={<Portfolio />} />
           <Route path='*' element={<NoRoute />} />
         </Routes>
